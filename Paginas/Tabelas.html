@@ -8,31 +8,87 @@
     <h1>Criando tabelas</h1>
     <br><br>
     <h2>Tabela simples</h2>
-<table border>
+<table border cellspacing="3px" cellpadding="8px" width="45%">
   <tr>
       <th>Nome</th>
       <th>Telefone</th>
-      <th>Email</th>
+      <th width="45%">  Email</th>
   </tr>
   <tr>
       <td>João Silva</td>
       <td>(11) 9584-9348</td>
-      <td>joao@a.com</td>
+      <td>joao@aasdasd.com</td>
   </tr>
   <tr> 
       <td>Maria José</td>
       <td>(43) 8943-1194</td>
-      <td>maria@b.com</td>
+      <td>maria@basddasd.com</td>
   </tr>
   <tr>
       <td>Paulo Maria</td>
       <td>(21) 8800-1124</td>
-      <td>paulo@c.com</td>
+      <td>paulo@casdasd.com</td>
   </tr>
 </table>
 <br><br>
 <img src="arquivos/tabela.JPG"  alt="Sintaxe para criar tabela">
-</div>
+<br><br><br><br><br><br><br>
+
+
+<h2>Tabela com linhas e colunas combinadas verticalmente</h2>
+<table border cellspacing="3px" cellpadding="8px" width="45%">
+  <tr>
+      <th>Nome</th>
+      <th colspan="2" width="45%">Telefone</th>
+      <th>  Email</th>
+  </tr>
+  <tr>
+      <td>João Silva</td>
+      <td>(11) 9584-9348</td>
+      <td>(11) 9841-8541</td>
+      <td>joao@aasdasd.com</td>
+  </tr>
+  <tr> 
+      <td>Maria José</td>
+      <td>(43) 8943-1194</td>
+      <td>(43) 8411-5847</td>
+      <td>maria@basddasd.com</td>
+  </tr>
+  <tr>
+      <td>Paulo Maria</td>
+      <td>(21) 8800-1124</td>
+      <td>(43) 8943-1194</td>
+      <td>paulo@casdasd.com</td>
+  </tr>
+</table>
+<br><br><br><br><br><br><br>
+
+<h2>Tabela com linhas e colunas combinadas horizontalmente</h2>
+<table border cellspacing="3px" cellpadding="8px" width="45%">
+  <tr>
+    <th>Categoria</th>
+    <th>Item</th>
+    <th>Valor</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Receitas</td>
+    <td>Loja física</td>
+    <td>R$1,335.43</td>
+  </tr>
+  <tr>
+    <td>Loja virtual</td>
+    <td>R$980.23</td>
+  </tr>
+  <tr>
+    <td>Vendas diretas</td>
+    <td>R$765.12</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td></td>
+    <td>R$3,080.78</td>
+  </tr>
+</table>
   </body>
 </html>
 
